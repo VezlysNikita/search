@@ -1,0 +1,103 @@
+#searchbox {
+    border-radius: 25px;
+    border: 1px solid rgb(185, 183, 183);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    height: 34px;
+    align-self: center;
+  }
+
+  .searchbar input {
+   padding: 17px;
+}
+
+  .searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    height:45px;
+    align-self: center;
+    flex-direction: column;
+  }
+
+  #searchbox:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+  }
+
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    height: 34px;
+    align-self: center;
+  }
+
+  #btn1:hover{
+    border: 1px solid #c8c8c8;
+    padding: 9px 19px;
+    color:#808080;
+  }
+
+  .btn1:focus{
+    border:1px solid #4885ed;
+    padding: 9px 19px;
+  }
+
+  #btn2:hover{
+    border: 1px solid #c8c8c8;
+    padding: 9px 19px;
+    color:#808080;
+  }
+
+  .btn2:focus{
+    border:1px solid #4885ed;
+    padding: 9px 19px;
+  }
+
+  #btn1 {
+    background-color: #f5f5f5;
+      font-size:15px;
+      color:#707070;
+      border:none;
+      padding: 10px 20px;
+      margin-right:5px;
+  }
+
+  #btn2 {
+    background-color: #f5f5f5;
+    font-size:15px;
+    color:#707070;
+    border:none;
+    padding: 10px 20px;
+    margin-left:5px;
+  }
+
+
+.microphone {
+    position:relative;
+    top:-30px;
+    left:270px;
+    size:10px;
+}
+
+.google {
+    position:relative;
+    left:300px;
+    top:130px;
+    border-top-left-radius: 32px;
+    border-bottom-left-radius: 32px;
+    background-color: #fff
+}
+
+.input-group-prepend {
+    margin-right: -2px;
+}
+
+.input-group-append {
+    margin-left: -2px;
+}
+
